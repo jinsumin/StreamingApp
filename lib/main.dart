@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:streaming_app/screen/home_screen.dart';
 import 'package:streaming_app/widget/bottom_bar.dart';
 
 void main() => runApp(const MyApp());
@@ -22,20 +23,31 @@ class MyAppState extends State<MyApp> {
           primaryColor: Colors.black,
           accentColor: Colors.white),
       home: DefaultTabController(
-          length: 4,
-          child: Scaffold(
-              body: TabBarView(
+        length: 4,
+        child: Scaffold(
+          body: TabBarView(
             physics: const NeverScrollableScrollPhysics(),
             children: <Widget>[
-              Container(),
-              Container(),
-              Container(),
-              Container(),
+              const HomeScreen(),
+              Container(
+                child: const Center(
+                  child: Text('search'),
+                ),
+              ),
+              Container(
+                child: const Center(
+                  child: Text('save'),
+                ),
+              ),
+              Container(
+                child: const Center(
+                  child: Text('more'),
+                ),
+              ),
             ],
           ),
-            bottomNavigationBar: const Bottom(),
-          ),
-
+          bottomNavigationBar: const Bottom(),
+        ),
       ),
     );
   }
