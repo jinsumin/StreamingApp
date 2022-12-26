@@ -20,20 +20,26 @@ class _HomeScreenState extends State<HomeScreen> {
       'like': false
     }),
     Movie.fromMap({
-      'title': "재벌집 막내아들",
-      'keyword': "한국드라마/웹드라마",
+      'title': "보헤미안 랩소디",
+      'keyword': "음악/드라마/인물",
       'poster': 'movie_posters.png',
       'like': false
     }),
     Movie.fromMap({
-      'title': "재벌집 막내아들",
-      'keyword': "한국드라마/웹드라마",
+      'title': "사랑의 불시착",
+      'keyword': "가슴 뭉클/로맨스/코미디/금지된 사랑/정반대 캐릭터",
       'poster': 'movie_posters.png',
       'like': false
     }),
     Movie.fromMap({
-      'title': "재벌집 막내아들",
-      'keyword': "한국드라마/웹드라마",
+      'title': "포레스트 검프",
+      'keyword': "드라마/외국",
+      'poster': 'movie_posters.png',
+      'like': false
+    }),
+    Movie.fromMap({
+      'title': "쇼생크 탈출",
+      'keyword': "추리/반전/서스펜스",
       'poster': 'movie_posters.png',
       'like': false
     }),
