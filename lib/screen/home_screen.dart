@@ -16,7 +16,25 @@ class _HomeScreenState extends State<HomeScreen> {
       'keyword': "한국드라마/웹드라마",
       'poster': 'movie_posters.png',
       'like': false
-    })
+    }),
+    Movie.fromMap({
+      'title': "재벌집 막내아들",
+      'keyword': "한국드라마/웹드라마",
+      'poster': 'movie_posters.png',
+      'like': false
+    }),
+    Movie.fromMap({
+      'title': "재벌집 막내아들",
+      'keyword': "한국드라마/웹드라마",
+      'poster': 'movie_posters.png',
+      'like': false
+    }),
+    Movie.fromMap({
+      'title': "재벌집 막내아들",
+      'keyword': "한국드라마/웹드라마",
+      'poster': 'movie_posters.png',
+      'like': false
+    }),
   ];
 
   @override
