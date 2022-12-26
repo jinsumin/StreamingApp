@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:streaming_app/model/model_movie.dart';
+import 'package:streaming_app/widget/carousel_slider.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({Key? key}) : super(key: key);
@@ -13,7 +14,7 @@ class _HomeScreenState extends State<HomeScreen> {
     Movie.fromMap({
       'title': "재벌집 막내아들",
       'keyword': "한국드라마/웹드라마",
-      'poster': 'assets/movie_posters.png',
+      'poster': 'movie_posters.png',
       'like': false
     })
   ];
@@ -25,7 +26,12 @@ class _HomeScreenState extends State<HomeScreen> {
 
   @override
   Widget build(BuildContext context) {
-    return const TopBar();
+    return ListView(children: <Widget>[
+      Stack(children: <Widget>[
+        CarouselImage(movies: movies),
+        const TopBar(),
+      ])
+    ]);
   }
 }
 
