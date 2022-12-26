@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "325417468624",
+    "project_id": "streaming-app-test-cf57b",
+    "storage_bucket": "streaming-app-test-cf57b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:325417468624:android:e17a79d226b8eb0752d4d5",
+        "android_client_info": {
+          "package_name": "com.example.streaming_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "325417468624-ikirk28spcr93j0g4bgf6498k88c49a2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB47VvX4Sjq-8tWJJxhpAfgibmnMHT1JRY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "325417468624-ikirk28spcr93j0g4bgf6498k88c49a2.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "325417468624-ishu8r8dv0b4etjmu0pbgdmlfe6em8uh.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.streamingApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
