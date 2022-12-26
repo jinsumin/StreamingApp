@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:streaming_app/screen/home_screen.dart';
+import 'package:streaming_app/screen/more_screen.dart';
 import 'package:streaming_app/widget/bottom_bar.dart';
 
 void main() => runApp(const MyApp());
@@ -39,11 +40,7 @@ class MyAppState extends State<MyApp> {
                   child: Text('save'),
                 ),
               ),
-              Container(
-                child: const Center(
-                  child: Text('more'),
-                ),
-              ),
+              const MoreScreen(),
             ],
           ),
           bottomNavigationBar: const Bottom(),
