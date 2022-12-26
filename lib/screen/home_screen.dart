@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:streaming_app/model/model_movie.dart';
+import 'package:streaming_app/widget/box_slider.dart';
 import 'package:streaming_app/widget/circle_slider.dart';
 import 'package:streaming_app/widget/carousel_slider.dart';
 
@@ -50,9 +51,8 @@ class _HomeScreenState extends State<HomeScreen> {
         CarouselImage(movies: movies),
         const TopBar(),
       ]),
-      CircleSlider(
-        movies: movies,
-      ),
+      CircleSlider(movies: movies),
+      BoxSlider(movies: movies),
     ]);
   }
 }
